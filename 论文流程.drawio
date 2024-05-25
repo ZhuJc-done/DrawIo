@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-25T16:34:12.943Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="Fk5yhYgLd24GARIE1-dZ" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-25T16:41:38.268Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="6lqCNSO5sluCtTPJ_oll" version="24.4.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="573" dy="325" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="716" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -20,10 +20,46 @@
           <mxGeometry x="310" y="155" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="N0qDIQoG9qAkmdBS3vQT-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="280" y="230" width="120" height="60" as="geometry" />
+          <mxGeometry x="255" y="230" width="165" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="N0qDIQoG9qAkmdBS3vQT-9" value="$$从L中选取节点集L^s,&lt;br&gt;令i=1$$" style="text;align=center;verticalAlign=middle;rounded=0;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="274" y="242.5" width="186" height="37.5" as="geometry" />
+        <mxCell id="N0qDIQoG9qAkmdBS3vQT-9" value="$$从L中选取节点集L^s$$" style="text;align=center;verticalAlign=middle;rounded=0;html=1;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="247" y="230" width="186" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="N0qDIQoG9qAkmdBS3vQT-10" value="$$令i=1$$&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="307.5" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N0qDIQoG9qAkmdBS3vQT-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="248.5" y="320" width="181.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="N0qDIQoG9qAkmdBS3vQT-12" value="$$计算子问题(P(X_i)) \in L^s$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="310" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N0qDIQoG9qAkmdBS3vQT-13" value="$$的下界LB_i$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="350" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="N0qDIQoG9qAkmdBS3vQT-14" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="400" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="N0qDIQoG9qAkmdBS3vQT-15" value="$$LB_i \ge v^*?$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="310" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N0qDIQoG9qAkmdBS3vQT-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="100" y="405" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N0qDIQoG9qAkmdBS3vQT-17" value="$$从L^s中删除$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N0qDIQoG9qAkmdBS3vQT-18" value="$$子问题(P(X_i))$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="435" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N0qDIQoG9qAkmdBS3vQT-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="110" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N0qDIQoG9qAkmdBS3vQT-20" value="$$若\tilde{x}为(P(X_i))$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="140" y="510" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N0qDIQoG9qAkmdBS3vQT-21" value="$$的最优解$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="140" y="540" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
